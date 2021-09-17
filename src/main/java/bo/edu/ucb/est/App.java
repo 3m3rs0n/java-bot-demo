@@ -13,10 +13,10 @@ public class App
     public static void main( String[] args )
     {
         try {
-                TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
-                telegramBotsApi.registerBot(new HelloWorldBot());
-            } catch (TelegramApiException e) {
-                e.printStackTrace();
-            }
+            TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
+            telegramBotsApi.registerBot(new HelloWorldBot());
+        } catch (TelegramApiException e) {
+            e.printStackTrace();
+        }
     }
 }
