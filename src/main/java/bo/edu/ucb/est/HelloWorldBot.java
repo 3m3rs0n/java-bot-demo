@@ -19,7 +19,7 @@ public class HelloWorldBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "1978503767:AAEmF5TD9lHSe1Fs2sXb4ys4_NTR8C8Pgr0";
+        return "";
     }
 
     @Override
